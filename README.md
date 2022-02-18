@@ -1,4 +1,4 @@
- # Spring Boot CRUD Operations
+ # Spring Boot API CRUD Operations
 The following was discovered as part of building this project:
 
 * The original package name 'com.janawat.spring boot crud perations' is invalid and this project uses 'com.janawat.spring.boot.crud.perations' instead.
