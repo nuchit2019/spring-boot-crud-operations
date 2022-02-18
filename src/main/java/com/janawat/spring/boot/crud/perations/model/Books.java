@@ -21,6 +21,15 @@ public class Books {
     @Column
     private  int price;
 
+    public Books() {
+    }
+
+    public Books(int bookid, String bookname, String author, int price) {
+        this.bookid = bookid;
+        this.bookname = bookname;
+        this.author = author;
+        this.price = price;
+    }
 
     public int getBookid() {
         return bookid;
