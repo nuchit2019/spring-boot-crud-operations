@@ -22,4 +22,18 @@ The following guides illustrate how to use some features concretely:
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
 * [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
 
+### Spring Boot CRUD Operations
+* What is the CRUD operation?
+* The CRUD stands for Create, Read/Retrieve, Update, and Delete. These are the four basic functions of the persistence storage.
 
+### HTTP action verbs.
+* POST: Creates a new resource
+* GET: Reads a resource
+* PUT: Updates an existing resource
+* DELETE: Deletes a resource
+
+### Spring Boot CrudRepository
+Spring Boot provides an interface called CrudRepository
+in the package [org.springframework.data.repository].
+It extends the Spring Data Repository interface.
+It provides generic Crud operation on a repository.
